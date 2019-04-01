@@ -1,0 +1,50 @@
+#testi_img
+{
+    max-width: 30%;
+    float: left;
+    margin: 0;
+    padding: 0;   
+}
+
+#testi_img img{max-width: 100%;}
+
+#testi_name
+{
+    max-width: 70%;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+#testi_name p
+{
+    font-weight: bold;
+    font-size: 95%;
+}
+
+#testi_m_comment
+{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+#comment_endline
+{
+    width: 100%;
+    float: left;
+    margin-top: -3px;
+}
+
+@media only screen and (max-width: 500px)
+{
+    #testi_name p
+    {
+        font-weight: bold;
+        font-size: 160%;
+    }
+
+    #testi_name
+    {
+        margin-top: 0;
+    }
+}
